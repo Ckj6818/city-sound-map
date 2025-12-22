@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&family=ZCOOL+XiaoWei&display=swap');
+
+:root {
+  --paper: #f7f2e8;
+  --ink: #191816;
+  --muted: rgba(25, 24, 22, 0.65);
+  --sea: #0b6b6f;
+  --sun: #f4a259;
+  --coral: #e2584b;
+  --moss: #5c7f5b;
+  --shadow-soft: 0 12px 30px rgba(17, 17, 17, 0.08);
+  --shadow-strong: 0 18px 40px rgba(17, 17, 17, 0.16);
+  --font-display: 'ZCOOL XiaoWei', serif;
+  --font-body: 'Manrope', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  background:
+    radial-gradient(circle at 10% 20%, rgba(244, 162, 89, 0.2), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(11, 107, 111, 0.2), transparent 40%),
+    radial-gradient(circle at 20% 80%, rgba(226, 88, 75, 0.12), transparent 45%),
+    var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}

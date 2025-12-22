@@ -1,0 +1,141 @@
+﻿<!-- 姓名：陈柯杰，学号：25230810129，日期：2025-12-21 -->
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>城市声音地图 - 首页</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <h1>City Sound Map</h1>
+        <p>城市声音地图</p>
+      </div>
+      <nav class="site-nav">
+        <a href="home.html">首页</a>
+        <a href="sounds.html">声景库</a>
+        <a href="routes.html">路线</a>
+        <a href="upload.html">上传</a>
+        <a href="community.html">社区</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="section hero">
+        <h2>听见城市的纹理</h2>
+        <p>通过地图与音频卡片探索城市声音，发现故事与记忆。</p>
+        <div class="hero-actions">
+          <button type="button">开始探索</button>
+          <button type="button">上传我的声音</button>
+        </div>
+      </section>
+
+      <section class="section map-preview">
+        <h3>地图预览</h3>
+        <div class="map-box">
+          <p>此处放置地图组件预览。</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>今日声景</h3>
+        <ul class="card-grid">
+          <li>
+            <article>
+              <h4>街头萨克斯</h4>
+              <p>南京·新街口</p>
+              <p>暖调旋律与人群脚步</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>清晨鱼市</h4>
+              <p>厦门·第八海鲜市场</p>
+              <p>咸湿海风与摊贩吆喝</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>夜市烟火</h4>
+              <p>长沙·坡子街</p>
+              <p>摊主叫卖与食物滋滋声</p>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h3>声音路线生成器</h3>
+        <p>拖拽节点，实时生成轨迹。</p>
+        <div class="route-grid">
+          <div class="route-list">
+            <h4>路线卡片</h4>
+            <ul>
+              <li>雨天慢行线</li>
+              <li>夜市声浪线</li>
+              <li>清晨呼吸线</li>
+            </ul>
+          </div>
+          <div class="route-preview">
+            <h4>路线预览</h4>
+            <p>此处放置路线轨迹预览。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>上传你的声音</h3>
+        <p>记录地点、情绪与故事，让声音更有记忆点。</p>
+        <form class="form-grid">
+          <label>
+            声音标题
+            <input type="text" placeholder="比如：河岸夜风" />
+          </label>
+          <label>
+            选择标签
+            <select>
+              <option>自然</option>
+              <option>交通</option>
+              <option>人声</option>
+              <option>音乐</option>
+            </select>
+          </label>
+          <label>
+            地点描述
+            <input type="text" placeholder="城市 + 地点" />
+          </label>
+          <label>
+            简短故事
+            <textarea rows="4"></textarea>
+          </label>
+          <button type="button">立即发布</button>
+        </form>
+      </section>
+
+      <section class="section">
+        <h3>社区与故事</h3>
+        <p>精选故事、话题与创作者展示区。</p>
+        <div class="community-grid">
+          <article>
+            <h4>雨声档案</h4>
+            <p>收集不同城市的雨天声音。</p>
+          </article>
+          <article>
+            <h4>夜市人声</h4>
+            <p>探索夜市的热闹与生活气息。</p>
+          </article>
+          <article>
+            <h4>校园广播</h4>
+            <p>每一所学校都有独特的广播声。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>城市声音地图 © 2025</p>
+    </footer>
+  </body>
+</html>
