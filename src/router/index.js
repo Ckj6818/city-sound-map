@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 
 const Home = () => import('../pages/Home.vue');
 const Sounds = () => import('../pages/Sounds.vue');
@@ -12,7 +12,7 @@ const TopicDetail = () => import('../pages/TopicDetail.vue');
 const InteractionLab = () => import('../pages/InteractionLab.vue');
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes: [
     { path: '/', name: 'home', component: Home },
     { path: '/sounds', name: 'sounds', component: Sounds },
