@@ -1,38 +1,28 @@
-# COURSE
+City Sound Map (城市声音地图) 🗺️🎵
+这是一个基于 Vue 框架开发的前端交互项目，旨在探索和记录城市中不同区域的独特声音切片。
 
-This template should help get you started developing with Vue 3 in Vite.
+🛠️ 技术栈 (Tech Stack)
+前端框架: Vue 3 / JavaScript
 
-## Recommended IDE Setup
+页面重构: HTML5 / CSS3
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+AI 辅助工具: Cursor / ChatGPT / GitHub Copilot
 
-## Recommended Browser Setup
+🤖 AI 辅助开发实践 (AI-Assisted Development)
+本项目不仅是一次前端框架的实践，也是我对“AI驱动开发 (AI-Driven Development)”的深度探索。在开发过程中，我重度使用 AI 工具大幅提升了开发效率：
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+代码生成与重构： 核心逻辑组件和页面基础结构通过 ChatGPT / Cursor 辅助生成，并使用 AI 对冗余的 JavaScript 代码进行逻辑重构与优化。
 
-## Customize configuration
+Bug 排查与 Debug： 遇到组件传值或生命周期报错时，将控制台报错日志配合代码片段喂给 AI，快速定位问题根源并修复。
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+工作流提效： 体验了从“手敲代码”向“架构设计+Prompt提示词编写”的开发模式转变，开发效率提升 200% 以上。
 
-## Project Setup
+✨ 核心功能 (Features)
+实现了基础的地图/网格 UI 交互界面。
 
-```sh
-npm install
-```
+支持特定声音事件的触发与状态管理。
 
-### Compile and Hot-Reload for Development
+响应式页面布局，适配基础的屏幕尺寸。
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+💡 开发者心得
+在这个项目中，我深刻体会到：未来的开发者不仅仅是代码的搬运工，更是 AI 生产力工具的指挥官。我期待在真实的商业环境中，进一步打磨我的工程能力与 AI 自动化工作流。
